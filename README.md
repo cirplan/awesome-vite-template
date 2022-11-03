@@ -1,5 +1,3 @@
-# awesome-vite-template
-
 This is a tool to clone vite template which list in [awesome-vite][1]
 
 ## Usage
