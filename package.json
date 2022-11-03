@@ -1,5 +1,5 @@
 {
-  "name": "vite-template",
+  "name": "awesome-vite-template",
   "version": "0.1.0",
   "description": "clone awasome vite template project from github",
   "type": "module",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cirplan/vite-template.git"
+    "url": "git+https://github.com/cirplan/awesome-vite-template.git"
   },
   "bugs": {
-    "url": "https://github.com/cirplan/vite-template/issues"
+    "url": "https://github.com/cirplan/awesome-vite-template/issues"
   },
-  "homepage": "https://github.com/cirplan/vite-template#readme",
+  "homepage": "https://github.com/cirplan/awesome-vite-template#readme",
   "keywords": [
     "vite",
     "template"
