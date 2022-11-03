@@ -1,0 +1,40 @@
+{
+  "name": "vite-template",
+  "version": "0.1.0",
+  "description": "clone awasome vite template project from github",
+  "type": "module",
+  "bin": {
+    "vite-template": "outfile.cjs"
+  },
+  "files": [
+    "outfile.cjs"
+  ],
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "scripts": {
+    "build": "zx ./scripts/build.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cirplan/vite-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cirplan/vite-template/issues"
+  },
+  "homepage": "https://github.com/cirplan/vite-template#readme",
+  "keywords": [
+    "vite",
+    "template"
+  ],
+  "author": "cirplan <dcirplan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@vue/tsconfig": "^0.1.3",
+    "esbuild": "^0.15.13",
+    "kolorist": "^1.6.0",
+    "prompts": "^2.4.2",
+    "zx": "^7.1.1"
+  }
+}
