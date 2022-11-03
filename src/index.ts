@@ -79,7 +79,8 @@ async function init() {
   }
 
   try {
-    await $`git clone ${link}.git ${projectName}`
+    await $`git clone --depth=1 ${link}.git ${projectName}`
+    await $`rm -rf ./${projectName}/.git`
   } catch (e) {
     console.error(e)
     process.exit(1)
