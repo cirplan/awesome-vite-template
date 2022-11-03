@@ -1,10 +1,10 @@
 {
   "name": "awesome-vite-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "clone awasome vite template project from github",
   "type": "module",
   "bin": {
-    "vite-template": "outfile.cjs"
+    "avtp": "outfile.cjs"
   },
   "files": [
     "outfile.cjs"
