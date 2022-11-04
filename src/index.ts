@@ -46,7 +46,7 @@ async function init() {
       {
         name: 'frame',
         type: 'select',
-        message: 'Pick a frame',
+        message: 'Pick a framework',
         choices: framesTypes,
         onState: (state) => (frameIndex = state.value)
       },
