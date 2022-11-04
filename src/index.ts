@@ -86,7 +86,7 @@ async function init() {
     process.exit(1)
   }
 
-  console.log(green('finish'))
+  console.log('Finish. Now run:\n', green(`cd ${projectName}`))
   process.exit(0)
 }
 
